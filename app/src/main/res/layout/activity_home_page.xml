@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_two">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speak"
+            android:textColor="@color/color_black"
+            android:textSize="30sp"
+            android:id="@+id/tv_speak"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="80dp"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/btn_speak"
+            android:background="@drawable/circular_pink_btn"
+            android:layout_toRightOf="@+id/tv_speak"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="70dp"/>
+
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight=".5"
+    android:background="@drawable/background_one">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listen"
+        android:textColor="@color/color_black"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/tv_listen"/>
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/btn_listen"
+        android:background="@drawable/circular_while_btn_with_blue_border"
+        android:layout_toRightOf="@+id/tv_listen"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="70dp"
+        />
+
+
+</RelativeLayout>
+</LinearLayout>

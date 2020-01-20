@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical"
+    android:padding="30dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textSize="50sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colour_blue_text"
+        android:layout_gravity="center"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="@drawable/rectangle_background"
+       android:hint="Full Name"
+       android:id="@+id/name_et"
+       android:gravity="center"
+       android:layout_marginTop="70dp"/>
+    <EditText
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/email_signup_et"
+        android:background="@drawable/rectangle_background"
+        android:hint="Email"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@drawable/rectangle_background"
+        android:id="@+id/Pass_et"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rectangle_background"
+        android:id="@+id/Confirm_Pass_et"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circular_button"
+        android:text="Sign Up"
+        android:id="@+id/btn_signup"
+        android:textColor="@color/colour_white"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

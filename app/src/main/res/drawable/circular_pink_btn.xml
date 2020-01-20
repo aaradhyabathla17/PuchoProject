@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="rectangle" android:padding="10dp">
+            <solid android:color="@color/background_color"
+                ></solid>
+            <stroke android:width="5px" android:color="@color/colorAccent"></stroke>
+            <corners
+                android:bottomRightRadius="25dp"
+                android:bottomLeftRadius="25dp"
+                android:topLeftRadius="25dp"
+                android:topRightRadius="25dp"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_mic_black_24dp" />
+</layer-list>

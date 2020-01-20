@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "473523954121",
+    "firebase_url": "https://diya-fc8cd.firebaseio.com",
+    "project_id": "diya-fc8cd",
+    "storage_bucket": "diya-fc8cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473523954121:android:d4127639e5ba6d6d0b0818",
+        "android_client_info": {
+          "package_name": "com.puchoInc.diya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473523954121-ads7d6kvmoguni85aj21t0e0r56fgu84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.puchoInc.diya",
+            "certificate_hash": "055acc5d3757713693431959fad4f52cb726cde3"
+          }
+        },
+        {
+          "client_id": "473523954121-3jag8iiils9p7r6iah376fbmffs8nd3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwJZ3w2s1PBdsr9u3suiEVgO8aaFW7PLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473523954121-3jag8iiils9p7r6iah376fbmffs8nd3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
